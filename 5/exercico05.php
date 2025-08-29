@@ -34,6 +34,13 @@
                     }
                     return $soma;
                 }
+
+                if (somaDivisores($num1) == $num2 && somaDivisores2 == $num1) {
+                    echo "$num1 e $num2 são números amigos."
+                } echo {
+                    echo "<p>" 
+                  
+                }
 ?>
                
 </body>
