@@ -19,7 +19,7 @@
          if (isset($_POST['verificar_tabuada'])) {
             $numero =($_POST['numero']);
 
-            echo "tabuada do número $numero é: <br>";
+            echo "tabuada do número $numero é: <br>";0
 
             for ($i = 1; $i < 10; $i++) {
                 echo " ", $numero * $i , "<br>";
