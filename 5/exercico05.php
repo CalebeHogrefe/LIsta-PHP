@@ -22,13 +22,19 @@
             if (isset($_POST['verificar'])) {
                 $num1 = $_POST['num1'];
                 $num2 = $_POST['num2'];
-              
 
             }
         }
-        ?>
-                   
-
+                 function somaDivisores($num) {
+                    $soma = 0;
+                    for ($i = 1; $i <= $num / 2; $i++) {
+                        if ($num % $i == 0) {
+                            $soma += $i;
+                        }
+                    }
+                    return $soma;
+                }
+?>
                
 </body>
 </html>
